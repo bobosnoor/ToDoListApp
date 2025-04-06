@@ -1,0 +1,27 @@
+BoxLayout:
+    orientation : "vertical"
+    spacing : 40
+    #input layout 
+    BoxLayout : 
+        size_hint_y : 0.2
+        padding : (30,20,20,20)
+        spacing : 5
+        TextInput : 
+            hint_text : "Enter a task "
+            size_hint_x : 0.7
+            id : task_input
+        Button :
+            text : "Add a task "
+            size_hint_x : 0.3
+            background_color : (0,1,0,1)
+            font_size : 22
+            id : add_button
+    #tasks list layout:
+    BoxLayout:
+        orientation : "vertical"
+        size_hint_y : 0.8
+        id : tasks_list_layout
+
+
+
+
